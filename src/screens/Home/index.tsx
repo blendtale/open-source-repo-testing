@@ -1,16 +1,21 @@
 import React from 'react'
-import {View, Text } from "react-native";
-import { NavigationStackProp } from 'react-navigation-stack';
+import {View, Pressable, Text } from "react-native";
+import {Screens} from '@src/types/screens'
+import Actions from '@src/util/routes'
+import styles from './style'
 
-interface Props  {
-    navigation: NavigationStackProp
+
+const ScreenMap:Screens = {
+    nextInput: 'Next Input', 
 }
-
-const HomeScreen = ({ navigation }:Props) => {
-
+const HomeScreen = () => {
     return (
-        <View>
-            <Text> Home Screen</Text>
+        <View style={styles.ParentView}> 
+            {Object.keys(ScreenMap).map((el:string) => (
+                <Pressable onPress={() => Actions.navigate(el)} style={styles.PressableButton}>
+                    <Text style={styles.PressableText}> {ScreenMap[el]} </Text>
+                </Pressable>
+            ))}
         </View>
     )
 }
