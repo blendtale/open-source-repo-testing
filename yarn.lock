@@ -5647,6 +5647,11 @@ react-native-iphone-x-helper@^1.3.0:
   resolved "https://registry.yarnpkg.com/react-native-iphone-x-helper/-/react-native-iphone-x-helper-1.3.1.tgz#20c603e9a0e765fd6f97396638bdeb0e5a60b010"
   integrity sha512-HOf0jzRnq2/aFUcdCJ9w9JGzN3gdEg0zFE4FyYlp4jtidqU03D5X7ZegGKfT1EWteR0gPBGp9ye5T5FvSWi9Yg==
 
+"react-native-keyboard-view-space@git + https://github.com/blendtale/react-native-keyboard-view-space.git":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/react-native-keyboard-view-space/-/react-native-keyboard-view-space-1.0.5.tgz#a8b5c26e7c27bd4566fbd733177d4b499948df4f"
+  integrity sha512-8uOEOAw4iPtlQejvxRWry4GcvSIoKd4r2fIlvoyKsMYO9ZnvFXlHLSHq0thauPva9j5GlJQdCWNQc62O8ZewMw==
+
 react-native-loader@^1.3.1:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/react-native-loader/-/react-native-loader-1.3.1.tgz#fb0a840cf73ca38d574795d5ff52f66c694edf98"
