@@ -7,6 +7,7 @@ import styles from './style'
 
 const ScreenMap:Screens = {
     nextInput: 'Next Input', 
+    progressBarExample: 'Progress Bar'
 }
 const HomeScreen = () => {
     return (

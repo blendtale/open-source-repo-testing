@@ -1,4 +1,4 @@
-import React, {Ref} from 'react';
+import React from 'react';
 import {NavigationContainer, NavigationContainerRef} from '@react-navigation/native';
 import { connect } from 'react-redux';
 import { enableScreens } from 'react-native-screens';
