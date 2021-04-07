@@ -5619,6 +5619,18 @@ react-native-codegen@^0.0.6:
     jscodeshift "^0.11.0"
     nullthrows "^1.1.1"
 
+react-native-device-info@^8.0.8:
+  version "8.0.8"
+  resolved "https://registry.yarnpkg.com/react-native-device-info/-/react-native-device-info-8.0.8.tgz#53f14cb6a7d2fa80863df32e4de388a76fbb3f42"
+  integrity sha512-ljtm48riQeZgf2epIq8TvyxiXZW6vstIX7JDlr89HtrYLUvlX3dmOmxtwZshMuAdk0VpGz/72zvpTDZMSQcKig==
+
+"react-native-form-progress@git + https://github.com/blendtale/react-native-form-progress.git":
+  version "1.0.19"
+  resolved "https://registry.yarnpkg.com/react-native-form-progress/-/react-native-form-progress-1.0.19.tgz#b2f9aab4a1624a17eef7b6c18bfa579513225607"
+  integrity sha512-tVrPNfdlPpVy3YMdi5oLEyqZ1HLxRT9FHt7WcGbexotQbrEeWWlKTPWVDwo0p6RaLQsiawrSiHLthF4QYb6WXQ==
+  dependencies:
+    react-native-smart-statusbar "^1.0.23"
+
 react-native-gesture-handler@^1.10.0:
   version "1.10.3"
   resolved "https://registry.yarnpkg.com/react-native-gesture-handler/-/react-native-gesture-handler-1.10.3.tgz#942bbf2963bbf49fa79593600ee9d7b5dab3cfc0"
@@ -5661,6 +5673,11 @@ react-native-screens@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/react-native-screens/-/react-native-screens-3.0.0.tgz#ee4c2d69abf7411603868b57214feec5e8f637fa"
   integrity sha512-35II5oxTaVp3OP8y0eLPOPpQkxG4fRKQ+dL1YSE1we5kCZFOU0l/Rn0T79HbyUu1LPwUZr6lZupPs0ULnRyMuQ==
+
+react-native-smart-statusbar@^1.0.23:
+  version "1.0.23"
+  resolved "https://registry.yarnpkg.com/react-native-smart-statusbar/-/react-native-smart-statusbar-1.0.23.tgz#c774b73c97ab9ec397185d758bdcd45a3594a312"
+  integrity sha512-+V32VMFMrX2IC8KiZ5tw1taGHUSVyeAyaHBUOL413wkfxi+mFz2fQ7w5VoUPXieKjaJYA8nmQXBMHDd+BQfP9g==
 
 react-native@0.64.0:
   version "0.64.0"

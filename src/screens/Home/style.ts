@@ -5,7 +5,7 @@ const styles = StyleSheet.create({
         width: Dimensions.get('window').width,
         height: Dimensions.get('window').height,
         display: 'flex', 
-        flexDirection: 'row', 
+        flexDirection: 'column', 
         justifyContent: 'center', 
         alignItems: 'center'
     }, 
