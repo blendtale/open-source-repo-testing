@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
     PressableButton: {
         marginTop: 10, 
         marginBottom: 10,
-        width: 120,
+        width: 150,
         height: 30, 
         display: 'flex', 
         alignItems: 'center',
