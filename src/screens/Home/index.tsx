@@ -13,7 +13,7 @@ const HomeScreen = () => {
     return (
         <View style={styles.ParentView}> 
             {Object.keys(ScreenMap).map((el:string) => (
-                <Pressable onPress={() => Actions.navigate(el)} style={styles.PressableButton}>
+                <Pressable onPress={() => Actions.navigate(el)} style={styles.PressableButton} key={el}>
                     <Text style={styles.PressableText}> {ScreenMap[el]} </Text>
                 </Pressable>
             ))}
