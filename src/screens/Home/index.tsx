@@ -7,7 +7,8 @@ import styles from './style'
 
 const ScreenMap:Screens = {
     nextInput: 'Next Input', 
-    progressBarExample: 'Progress Bar'
+    progressBarExample: 'Progress Bar',
+    keyboardViewSpacerExample: 'Keyboard View Spacer'
 }
 const HomeScreen = () => {
     return (
